@@ -1,0 +1,1048 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: bevietnamreg;
+}
+
+@font-face {
+  font-family: "bevietnamreg";
+  src: url("./BeVietnam-Regular.woff") format("woff");
+}
+
+body .container {
+  background-color: rgba(9, 97, 255, 0.1);
+}
+
+body .container .sidenav .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  z-index: 2;
+  padding: 1rem;
+}
+
+body .container .sidenav .logo .brand {
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+}
+
+body .container .sidenav .logo .brand .tendancce-logo {
+  display: none;
+}
+
+body .container .sidenav .logo .brand span {
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
+body .container .sidenav .logo .open {
+  color: #fff;
+}
+
+body .container .sidenav .logo .togglenavbar {
+  padding-top: 1rem;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+}
+
+body .container .sidenav .logo .togglenavbar i {
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
+body .container .sidenav .navbar-advert {
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  left: -100%;
+  width: 100%;
+  height: 100vh;
+  background-color: #0961ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0.8rem;
+}
+
+body .container .sidenav .navbar-advert .navbar {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  justify-self: flex-end;
+}
+
+body .container .sidenav .navbar-advert .navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .container .sidenav .navbar-advert .navbar ul li {
+  width: 100%;
+}
+
+body .container .sidenav .navbar-advert .navbar ul li:nth-child(1) a {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #ffc400;
+}
+
+body .container .sidenav .navbar-advert .navbar ul li a {
+  border-radius: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 1rem;
+  color: #fff;
+  padding: 10px;
+  display: block;
+}
+
+body .container .sidenav .navbar-advert .navbar ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+body .container .sidenav .navbar-advert .navbar ul li a i {
+  padding-right: 10px;
+}
+
+body .container .sidenav .navbar-advert .advert {
+  padding: 10px;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  margin-top: 0.5rem;
+  border-radius: 0.8rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-filter: drop-shadow(-3px 3px 7px rgba(0, 0, 0, 0.3));
+          filter: drop-shadow(-3px 3px 7px rgba(0, 0, 0, 0.3));
+}
+
+body .container .sidenav .navbar-advert .advert .head {
+  padding: 0.4rem;
+}
+
+body .container .sidenav .navbar-advert .advert .head p {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+body .container .sidenav .navbar-advert .advert .smalltext {
+  padding: 0.4rem;
+}
+
+body .container .sidenav .navbar-advert .advert .smalltext p {
+  color: #fff;
+  font-size: 1.2rem -0.4rem;
+}
+
+body .container .sidenav .navbar-advert .advert .buttn {
+  width: 100%;
+  padding: 0.8rem;
+}
+
+body .container .sidenav .navbar-advert .advert .buttn button {
+  width: 100px;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0;
+          box-shadow: 0;
+  background-color: #ffc400;
+  cursor: pointer;
+  padding: 0.4rem;
+  color: #fff;
+  font-size: 0.9rem;
+  border-radius: 0.7rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body .container .sidenav .navbar-advert .advert .buttn button:focus {
+  -webkit-box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.3);
+          box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.3);
+}
+
+body .container .sidenav .navbar-advert .advert .illustration {
+  width: 70%;
+  margin: 0 auto;
+}
+
+body .container .sidenav .navbar-advert .advert .illustration img {
+  width: 100%;
+}
+
+body .container .sidenav .open {
+  left: 0;
+}
+
+body .container .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .container .main .toptabs {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  padding: 0.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .container .main .toptabs .welcometext {
+  -webkit-filter: drop-shadow(-2px 2px 4px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(-2px 2px 4px rgba(0, 0, 0, 0.2));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+  background-color: rgba(9, 97, 255, 0.3);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+body .container .main .toptabs .welcometext i {
+  padding-right: 0.6rem;
+}
+
+body .container .main .toptabs .avatar {
+  -webkit-filter: drop-shadow(-2px 2px 4px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(-2px 2px 4px rgba(0, 0, 0, 0.2));
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+}
+
+body .container .main .toptabs .avatar img {
+  width: 60%;
+  border-radius: 100%;
+}
+
+body .container .main .toptabs .email-address {
+  padding: 10px;
+  text-align: center;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  font-weight: 700;
+}
+
+body .container .main .toptabs .email-address p {
+  color: #0961ff;
+}
+
+body .container .main .leftmain {
+  width: 100%;
+}
+
+body .container .main .leftmain .time {
+  width: 90%;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-filter: drop-shadow(-2px 2px 5px rgba(0, 0, 0, 0.1));
+          filter: drop-shadow(-2px 2px 5px rgba(0, 0, 0, 0.1));
+  margin: 0 auto;
+  padding: 0.8rem;
+}
+
+body .container .main .leftmain .time #date-element {
+  display: block;
+  text-align: center;
+  padding: 0.6rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+body .container .main .leftmain .time #time-element {
+  display: block;
+  font-size: 1.9rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+body .container .main .leftmain .todoapp {
+  padding: 0.6rem 0.3rem;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 15px;
+  margin: 0.5rem;
+  -webkit-filter: drop-shadow(-2px 2px 5px rgba(9, 97, 255, 0.2));
+          filter: drop-shadow(-2px 2px 5px rgba(9, 97, 255, 0.2));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .container .main .leftmain .todoapp .header {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  padding: 0.7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .container .main .leftmain .todoapp .header .text {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+}
+
+body .container .main .leftmain .todoapp .header .text p {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+body .container .main .leftmain .todoapp .header .tl {
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+}
+
+body .container .main .leftmain .todoapp .header .tl p {
+  padding: 0.4rem;
+  border-radius: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0961ff;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+body .container .main .leftmain .todoapp .header .icon {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .main .leftmain .todoapp .header .icon button {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: 0.4rem;
+          box-shadow: 0.4rem;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+body .container .main .leftmain .todoapp .inputfields {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+body .container .main .leftmain .todoapp .inputfields .input {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  text-align: center;
+}
+
+body .container .main .leftmain .todoapp .inputfields .input input {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  background-color: rgba(9, 97, 255, 0.3);
+  padding: 0.6rem;
+  border-radius: 0.8rem;
+  border: none;
+  outline: none;
+}
+
+body .container .main .leftmain .todoapp .inputfields .input input:focus {
+  -webkit-box-shadow: 0 0 0 2px rgba(9, 97, 255, 0.1);
+          box-shadow: 0 0 0 2px rgba(9, 97, 255, 0.1);
+}
+
+body .container .main .leftmain .todoapp .inputfields .input p {
+  font-size: 0.7rem;
+  display: block;
+  color: red;
+}
+
+body .container .main .leftmain .todoapp .inputfields .selectone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.2rem 1rem;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+}
+
+body .container .main .leftmain .todoapp .inputfields .selectone .sel label {
+  font-size: 1.3rem;
+}
+
+body .container .main .leftmain .todoapp .inputfields .selectone .sel select {
+  outline: none;
+}
+
+body .container .main .leftmain .todoapp .inputfields .send {
+  padding: 0.4rem 1rem;
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  text-align: center;
+}
+
+body .container .main .leftmain .todoapp .inputfields .send button {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: rgba(0, 255, 85, 0.288);
+  cursor: pointer;
+  font-size: 1.6rem;
+  color: #008b2e;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+body .container .main .leftmain .todoapp #todolists {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  border-radius: 15px;
+  width: 90%;
+  margin: 0 auto;
+  overflow-y: scroll;
+  min-height: 150px;
+  max-height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .container .main .leftmain .todoapp #todolists .empty-task {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+}
+
+body .container .main .leftmain .todoapp #todolists .empty-task p {
+  font-size: 1.2rem;
+}
+
+body .container .main .leftmain .todoapp #todolists .id-task {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 10px;
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #a5a5a5;
+}
+
+body .container .main .leftmain .todoapp #todolists .id-task:nth-child(1) {
+  border: none;
+}
+
+body .container .main .leftmain .todoapp #todolists .id-task .checkbox {
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+  padding: 0.4rem 0;
+}
+
+body .container .main .leftmain .todoapp #todolists .id-task .main-task {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+  padding: 0.4rem 0.3rem;
+}
+
+body .container .main .leftmain .todoapp #todolists .id-task .main-task p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+body .container .main .leftmain .todoapp #todolists .id-task .task-time {
+  padding: 0.4rem 0.3rem;
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+}
+
+body .container .main .leftmain .todoapp #todolists .id-task .task-time p {
+  font-size: 1.1rem;
+}
+
+body .container .main .leftmain .todoapp #todolists .id-task .remove-task {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  text-align: center;
+}
+
+body .container .main .leftmain .todoapp #todolists .id-task .remove-task button {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1.6rem;
+  color: rgba(134, 0, 0, 0.6);
+}
+
+body .container .main .rightmain {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+body .container .main .rightmain .notifications {
+  height: 300px;
+  padding: 0.5rem;
+  background-color: #0961ff;
+  margin: 0.5rem;
+  border-radius: 0.6rem;
+  overflow: hidden;
+  position: relative;
+}
+
+body .container .main .rightmain .notifications::before {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  top: 62%;
+  right: 65%;
+  border: 10px solid #0961ff;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.3);
+          box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+body .container .main .rightmain .notifications .head p {
+  font-size: 1.6rem;
+  font-weight: bolder;
+  color: #fff;
+}
+
+body .container .main .rightmain .notifications .notifications-list {
+  padding-top: 0.5rem;
+}
+
+body .container .main .rightmain .notifications .notifications-list .nullmode {
+  height: 200px;
+  position: relative;
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .main .rightmain .notifications .notifications-list .nullmode p {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
+body .container .main .rightmain .notifications .notifications-list div {
+  padding: 0.3rem;
+  border-radius: 0.35rem;
+  background-color: #ffc400;
+}
+
+body .container .main .rightmain .notifications .notifications-list div p {
+  color: #fff;
+}
+
+body .container .main .rightmain .notifications .notifications-list div .notified {
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+
+body .container .main .rightmain .notifications .notifications-list div .notified-time {
+  font-size: 0.8rem;
+}
+
+body .container .main .rightmain .team-chats {
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0.4rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  overflow: hidden;
+}
+
+body .container .main .rightmain .team-chats .memberssection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+
+body .container .main .rightmain .team-chats .memberssection .head {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+}
+
+body .container .main .rightmain .team-chats .memberssection .head p {
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
+body .container .main .rightmain .team-chats .memberssection .avatars {
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
+  margin-left: 0.8rem;
+}
+
+body .container .main .rightmain .team-chats .memberssection .avatars img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin: 0.2rem;
+  border: 2px solid #fff;
+}
+
+body .container .main .rightmain .team-chats .memberssection .avatars img:nth-child(2) {
+  position: relative;
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+}
+
+body .container .main .rightmain .team-chats .memberssection .avatars img:nth-child(3) {
+  position: relative;
+  -webkit-transform: translateX(-40px);
+          transform: translateX(-40px);
+}
+
+body .container .main .rightmain .team-chats .memberssection .others p {
+  font-size: 1.1rem;
+}
+
+body .container .main .rightmain .team-chats .memberssection .invite {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  text-align: center;
+}
+
+body .container .main .rightmain .team-chats .memberssection .invite button {
+  padding: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #0961ff;
+  cursor: pointer;
+  width: 80%;
+  color: #fff;
+  border-radius: 0.7rem;
+}
+
+body .container .main .rightmain .team-chats .memberssection .invite button:active {
+  -webkit-box-shadow: 0 0 0 0.3rem rgba(9, 97, 255, 0.3);
+          box-shadow: 0 0 0 0.3rem rgba(9, 97, 255, 0.3);
+}
+
+body .container .main .rightmain .team-chats .chat-section {
+  padding-top: 1rem;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  overflow-y: scroll;
+}
+
+body .container .main .rightmain .team-chats .chat-section .emptycs {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .main .rightmain .team-chats .chat-section div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .container .main .rightmain .team-chats .chat-section div .messageText {
+  font-weight: bolder;
+  padding: 0.5rem;
+  background-color: rgba(9, 97, 255, 0.2);
+  border-radius: 0.7rem;
+  color: #0961ff;
+}
+
+body .container .main .rightmain .team-chats .chat-section div .messageTime {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  font-size: 0.6rem;
+  color: #a5a5a5;
+}
+
+body .container .main .rightmain .team-chats .input-section {
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  padding: 0.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .main .rightmain .team-chats .input-section input {
+  width: 80%;
+  border: none;
+  outline: none;
+  background-color: rgba(9, 97, 255, 0.1);
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  font-weight: bolder;
+}
+
+body .container .main .rightmain .team-chats .input-section input:focus {
+  -webkit-box-shadow: 0 0 0 0.3rem rgba(9, 97, 255, 0.3);
+          box-shadow: 0 0 0 0.3rem rgba(9, 97, 255, 0.3);
+}
+
+body .container .main .rightmain .team-chats .input-section button {
+  width: 20%;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1.6rem;
+  color: #0961ff;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    overflow: hidden;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    background-color: #0961ff !important;
+  }
+  .container .sidenav {
+    -ms-flex-preferred-size: 20%;
+        flex-basis: 20%;
+  }
+  .container .sidenav .logo .brand {
+    color: #fff;
+  }
+  .container .sidenav .logo .togglenavbar {
+    display: none;
+  }
+  .container .sidenav .navbar-advert {
+    height: 90vh !important;
+    position: relative !important;
+    left: 0 !important;
+    top: 0;
+  }
+  .container .sidenav .navbar-advert .navbar {
+    -ms-flex-preferred-size: 50% !important;
+        flex-basis: 50% !important;
+  }
+  .container .sidenav .open {
+    left: 0 !important;
+  }
+  .container .main {
+    background-color: #fff;
+    -ms-flex-preferred-size: 80%;
+        flex-basis: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .container .main .toptabs {
+    height: 10%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .container .main .toptabs .welcometext {
+    -ms-flex-preferred-size: 50% !important;
+        flex-basis: 50% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 12rem;
+    background-color: rgba(9, 97, 255, 0.1) !important;
+  }
+  .container .main .toptabs .welcometext i {
+    -ms-flex-preferred-size: 10%;
+        flex-basis: 10%;
+  }
+  .container .main .toptabs .welcometext p {
+    text-align: center;
+    -ms-flex-preferred-size: 70%;
+        flex-basis: 70%;
+  }
+  .container .main .toptabs .welcometext p,
+  .container .main .toptabs .welcometext i {
+    color: rgba(0, 0, 0, 0.3);
+  }
+  .container .main .toptabs .avatar {
+    -ms-flex-preferred-size: 8% !important;
+        flex-basis: 8% !important;
+  }
+  .container .main .toptabs .avatar img {
+    width: 40%;
+  }
+  .container .main .toptabs .email-address {
+    -ms-flex-preferred-size: 10% !important;
+        flex-basis: 10% !important;
+  }
+  .container .main .leftmain {
+    height: 90%;
+    padding: 1rem;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .container .main .leftmain .time {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 35%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0.5rem !important;
+  }
+  .container .main .leftmain .time::before {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 55%;
+    left: 48%;
+    border: 10px solid #fff;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 0 6px rgba(9, 97, 255, 0.1);
+            box-shadow: 0 0 0 6px rgba(9, 97, 255, 0.1);
+    background-color: rgba(9, 97, 255, 0.1);
+  }
+  .container .main .leftmain .todoapp {
+    margin: 1rem !important;
+    height: 60% !important;
+    padding: 0.5rem !important;
+    position: relative;
+  }
+  .container .main .leftmain .todoapp .header {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    height: 70px !important;
+  }
+  .container .main .leftmain .todoapp .inputfields {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    flex-basis: 100%;
+  }
+  .container .main .leftmain .todoapp #todolists {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    bottom: 0;
+    max-height: 150px !important;
+  }
+  .container .main .rightmain {
+    padding: 0.5rem;
+    height: 90%;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .container .main .rightmain .notifications {
+    padding: 0.5rem;
+    height: 35% !important;
+  }
+  .container .main .rightmain .notifications .notifications-list {
+    margin-top: 0.4rem;
+  }
+  .container .main .rightmain .notifications .notifications-list .nullmode {
+    height: 120px !important;
+  }
+  .container .main .rightmain .team-chats {
+    height: 65%;
+  }
+  .container .main .rightmain .team-chats .memberssection .head p {
+    font-size: 1.6rem;
+    font-weight: bolder;
+  }
+  .container .main .rightmain .team-chats .memberssection .avatars {
+    -ms-flex-preferred-size: 28% !important;
+        flex-basis: 28% !important;
+  }
+  .container .main .rightmain .team-chats .memberssection .avatars img {
+    margin-right: -0.2rem;
+  }
+  .container .main .rightmain .team-chats .memberssection .others {
+    -ms-flex-preferred-size: 20% !important;
+        flex-basis: 20% !important;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+  }
+  .container .main .rightmain .team-chats .memberssection .others p {
+    font-size: 1.2rem !important;
+  }
+  .container .main .rightmain .team-chats .memberssection .invite {
+    -ms-flex-preferred-size: 45% !important;
+        flex-basis: 45% !important;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

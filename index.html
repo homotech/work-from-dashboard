@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Work from home dashboard</title>
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="stylesheet" href="./icons/css/all.css" />
+    <link rel="stylesheet" href="./icons/css/brands.css" />
+    <link rel="stylesheet" href="./icons/css/fontawesome.css" />
+    <link rel="stylesheet" href="./icons/css/regular.css" />
+    <link rel="stylesheet" href="./icons/css/solid.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidenav">
+        <div class="logo">
+          <div class="brand">
+            <p class="tendancce-logo">T</p>
+            <span>Tendance</span>
+          </div>
+          <div class="togglenavbar">
+            <i id="toggleNB"></i>
+          </div>
+        </div>
+        <div class="navbar-advert">
+          <div class="navbar">
+            <ul>
+              <li>
+                <a href=""><i class="fas fa-home"></i><span>Home</span> </a>
+              </li>
+              <li>
+                <a href=""><i class="fas fa-cube"></i><span>Projects</span> </a>
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fas fa-calendar"></i><span>Calendar</span>
+                </a>
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fas fa-comments"></i><span>Team Chat</span>
+                </a>
+              </li>
+              <li>
+                <a href=""><i class="fas fa-cog"></i><span>Settings</span> </a>
+              </li>
+            </ul>
+          </div>
+          <div class="advert">
+            <div class="head"><p>Go pro</p></div>
+            <div class="smalltext">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis illo explicabo veniam.
+              </p>
+            </div>
+            <div class="buttn">
+              <button>Upgrade</button>
+            </div>
+            <div class="illustration">
+              <img src="./assets/images/bg3-2.svg" alt="Illustrations" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="toptabs">
+          <div class="welcometext">
+            <i class="fas fa-user"></i>
+            <p>Welcome, Dominica!</p>
+          </div>
+          <div class="avatar">
+            <img src="./assets/images/avatar.jpg" alt="" />
+          </div>
+          <div class="email-address">
+            <p>dominica@tendance.com</p>
+          </div>
+        </div>
+        <div class="leftmain">
+          <div class="time">
+            <p id="date-element"></p>
+            <p id="time-element"></p>
+          </div>
+          <div class="todoapp">
+            <div class="header">
+              <div class="text">
+                <p>Reminders</p>
+              </div>
+              <div class="tl">
+                <p id="taskslength">0</p>
+              </div>
+              <div class="icon">
+                <button id="add-task">
+                  <i class="add-icon fas fa-plus"></i>
+                </button>
+                <button id="remove-task" style="display: none">
+                  <i class="add-icon fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+            <div class="inputfields" style="display: none">
+              <div class="input">
+                <input type="text" name="task" id="task-field" />
+                <p id="error-field"></p>
+              </div>
+              <div class="selectone">
+                <div class="sel">
+                  <label for="start-time">Pick a time</label>
+                  <select name="starttime" id="start-time">
+                    <option value="9am">9am</option>
+                    <option value="10am">10am</option>
+                    <option value="11am">11am</option>
+                    <option value="12pm">12pm</option>
+                    <option value="1pm">1pm</option>
+                    <option value="2pm">2pm</option>
+                    <option value="3pm">3pm</option>
+                    <option value="4pm">4pm</option>
+                    <option value="5pm">5pm</option>
+                    <option value="6pm">6pm</option>
+                    <option value="7pm">7pm</option>
+                  </select>
+                </div>
+              </div>
+              <div class="send">
+                <button id="send-button">
+                  <i class="fas fa-check"></i>
+                </button>
+              </div>
+            </div>
+            <div id="todolists"></div>
+          </div>
+        </div>
+        <div class="rightmain">
+          <div class="notifications">
+            <div class="head">
+              <p>Notifications</p>
+            </div>
+            <div class="notifications-list"></div>
+          </div>
+          <div class="team-chats">
+            <div class="memberssection">
+              <div class="head">
+                <p>Team Chat</p>
+              </div>
+              <div class="avatars">
+                <img src="./assets/images/avatar.jpg" alt="Avatar" />
+                <img src="./assets/images/avatar.jpg" alt="Avatar" />
+                <img src="./assets/images/avatar.jpg" alt="Avatar" />
+              </div>
+              <div class="others"><p>+5 others</p></div>
+              <div class="invite">
+                <button>Invite People</button>
+              </div>
+            </div>
+            <div class="chat-section"></div>
+            <div class="input-section">
+              <input
+                type="text"
+                placeholder="Type a message...."
+                id="message-field"
+              />
+              <button id="sendmessage">
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
