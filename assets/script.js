@@ -346,11 +346,15 @@ const toggleNBFunc = () => {
     document.querySelector(".navbar-advert").classList.add("open");
     document.querySelector(".brand").classList.add("open");
     document.querySelector(".togglenavbar").classList.add("open");
+    document.querySelector(".container").style.height = "100vh";
+    document.querySelector(".container").style.overflow = "hidden";
   } else {
     toggleNB.setAttribute("class", "fas fa-bars");
     document.querySelector(".navbar-advert").classList.remove("open");
     document.querySelector(".brand").classList.remove("open");
     document.querySelector(".togglenavbar").classList.remove("open");
+    document.querySelector(".container").style.height = "auto";
+    document.querySelector(".container").style.overflowY = "scroll";
   }
 };
 toggleNBFunc();
